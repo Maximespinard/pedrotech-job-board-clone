@@ -12,7 +12,7 @@ I built it mainly to learn how to use **Prisma** and **PostgreSQL** in a fullsta
 - Next.js 15
 - Prisma
 - PostgreSQL (via Neon)
-- GraphQL
+- NextAuth
 - Tailwind CSS
 - TypeScript
 
@@ -20,11 +20,12 @@ I built it mainly to learn how to use **Prisma** and **PostgreSQL** in a fullsta
 
 ## ✅ Features
 
-- Create and post job offers (for authenticated users)
-- Apply to jobs
-- Filter jobs by type and location
-- User dashboard to manage jobs and applications
-- Basic authentication setup
+- Post Job Offers Authenticated users can post new job offers with title, description, type, and location.
+- Advanced Search Filter jobs by keyword, type (Full-time, Part-time, Contract), and location — all with Prisma query filters.
+- User Dashboard Users can view their posted jobs and see how many applicants each job has received.
+- Job Applications Users can apply for any job. The dashboard lists all applications with statuses.
+- Dynamic Routes & Pages Each job has its own dynamic detail page with full information and "Apply" button.
+- Authentication & Authorization Users must be signed in to post jobs or apply for them.
 
 ---
 
